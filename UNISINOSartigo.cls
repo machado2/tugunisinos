@@ -316,7 +316,7 @@
 
 \DeclareRobustCommand{\fonte}[1]{%
 	\vskip.2\abovecaptionskip%
-	\parbox{\textwidth}{\footnotesize\fontename: #1}%
+    \parbox{\textwidth}{\centering\footnotesize\fontename: #1}%
 }
 \setlength{\abovecaptionskip}{\baselineskip}
 
@@ -435,10 +435,10 @@
 	\vfill%
 	{\noindent\centering\textbf{\@address}\par}%
 	{\noindent\centering\textbf{\@date}\par}%
-	\cleardoublepage%
-	\vspace*{4.4\baselineskip}%
+	\clearpage%
+	\vspace*{4\baselineskip}%
 	{\noindent\centering\@author\par}%
-	\vspace*{11\baselineskip}%
+	\vspace*{8\baselineskip}%
 	{\noindent\centering\MakeUppercase{\@title}\par}%
 	\vspace*{4\baselineskip}%
 	{\pretolerance=10000\setlength\leftskip{.5\textwidth}\noindent{Artigo apresentado como requisito parcial para obten\c{c}\~{a}o do t\'itulo de \@degree\ pelo \@course\ da Universidade do Vale do Rio dos Sinos -- UNISINOS}\par}%
